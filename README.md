@@ -24,4 +24,4 @@ Deep links: `#queue`, `#member/P1`, `#member/P4`, `#outreach/P1/draft`, `#about`
 
 ## Deploy on Vercel
 
-Import this repository in Vercel. `vercel.json` already points the build at `workbench-prototype/`, with output in `workbench-prototype/dist`, so no extra settings are needed.
+Import this repository in Vercel and set **Root Directory** to `workbench-prototype`. Vercel then detects Vite on its own: it runs `npm install`, then `npm run build`, and serves the `dist` folder.
