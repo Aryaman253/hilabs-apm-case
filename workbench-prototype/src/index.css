@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+/* HiLabs brand palette (sampled from hilabs.com): navy #072569, blue #2A6AF1,
+   teal #075A72, violet #3B35A0, green #72B024, orange #EC6F09, ice #ECF1FE. */
+@theme {
+  --color-navy: #072569;
+  --color-navy-2: #0d3a8c;
+  --color-brand: #2a6af1;
+  --color-ice: #ecf1fe;
+  --color-hl-teal: #075a72;
+  --color-hl-violet: #3b35a0;
+
+  /* AI / ranking accents -> HiLabs blue */
+  --color-indigo-50: #ecf1fe;
+  --color-indigo-100: #dbe6fd;
+  --color-indigo-200: #bcd0fb;
+  --color-indigo-400: #5d8cf4;
+  --color-indigo-500: #2a6af1;
+  --color-indigo-600: #2158d4;
+  --color-indigo-700: #1b48b0;
+  --color-indigo-800: #163a8d;
+  --color-indigo-900: #102b69;
+
+  /* urgency -> HiLabs orange */
+  --color-rose-50: #fdf0e6;
+  --color-rose-500: #f07f22;
+  --color-rose-600: #d96204;
+  --color-rose-700: #b45103;
+
+  /* confirmed / good -> HiLabs green */
+  --color-emerald-50: #f0f7e6;
+  --color-emerald-100: #e1efcc;
+  --color-emerald-200: #c8e2a2;
+  --color-emerald-300: #a9d277;
+  --color-emerald-500: #72b024;
+  --color-emerald-600: #5f9a1a;
+  --color-emerald-700: #4a7a14;
+  --color-emerald-800: #3a6010;
+
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+html, body, #root { height: 100%; }
+body { background: #f3f6fd; color: #29303d; }

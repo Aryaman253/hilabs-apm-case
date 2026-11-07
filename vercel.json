@@ -1,0 +1,6 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "installCommand": "npm install --prefix workbench-prototype",
+  "buildCommand": "npm run build --prefix workbench-prototype",
+  "outputDirectory": "workbench-prototype/dist"
+}

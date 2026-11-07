@@ -1,0 +1,21 @@
+# Dependencies and build output
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Local tooling
+.claude/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Confidential case brief (marked "Confidential, for campus-hiring use only")
+HiLabs_Product_Case_2026-27_APM_Case_Management*.pdf
+
+# Third-party reference material: licensed or not ours to redistribute
+SnomedCT_InternationalRF2_*.zip
+doc_SnomedCTReleaseNotes_*.pdf
+ICD11refguide.pdf
+ihe_lab_TF_LOINC.pdf
+Sample reference of final pdf.pdf
+Hiliabs website printout.pdf
